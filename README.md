@@ -293,7 +293,7 @@ The `InvestmentAccount` extends `BaseAccount` into capital markets asset managem
 - **Dollar-Cost Averaging**: Maintains a weighted-average cost basis across multiple tranches:
   $$\text{Average Cost Basis} = \frac{\sum (Q_i \times P_i)}{\sum Q_i}$$
 - **Mark-to-Market Valuation**: Updates market feeds and computes live unrealized P&L:
-  $$\text{Unrealized P\&L} = (\text{Shares} \times P_{\text{market}}) - (\text{Shares} \times P_{\text{avg}})$$
+  $$\text{Unrealized P/L} = (\text{Shares} \times P_{\text{market}}) - (\text{Shares} \times P_{\text{avg}})$$
 - **Fixed-Income Holdings**: Tracks municipal bond coupon yield schedules and maturity dates.
 - **Regulatory Boundaries**: Distinguishes between retail FDIC coverage (depository accounts up to \$250,000) and SIPC market-risk coverage (brokerage assets).
 
