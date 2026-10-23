@@ -1,0 +1,27 @@
+# Build directories and artifacts
+build/
+bin/
+out/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.so
+
+# Generated test outputs and statements
+jbank_statement.txt
+*.log
+
+# If ignoring text files, never ignore CMakeLists.txt
+!CMakeLists.txt
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
